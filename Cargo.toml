@@ -1,0 +1,15 @@
+[package]
+name = "lapce-coverage-gap"
+version = "0.1.0"
+edition = "2021"
+description = "Find what your tests DON'T cover — topological gap analysis for Rust coverage data"
+authors = ["lapce-coverage-gap contributors"]
+license = "MIT"
+repository = "https://github.com/SuperInstance/lapce-coverage-gap"
+keywords = ["coverage", "testing", "topology", "lapce", "betti-numbers"]
+categories = ["development-tools::testing", "science"]
+
+[dependencies]
+negative-space-testing = "0.1.0"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
